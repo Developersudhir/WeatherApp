@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.side1{
+    background-image: url('../images/bg_img.webp');
+    background-size: cover;
+
+}
+html,body{
+    width: 100%;
+    overflow-x: hidden;
+}
+.inputbox{
+    margin-bottom: 13%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.inputbox:hover{
+    transform: scale(1.1);
+}
+.card{
+    margin-top: 45%;
+    margin-left: 10%;
+    width: 20vw;
+    transition: 0.5s;
+    cursor: pointer;   
+}
+.card:hover{
+    /* transform: scale(1.1); */
+    box-shadow: 4px 3px 5px rgb(224, 65, 65);
+}
+.topside{
+    background-image: url('../images/img_3.jpg');
+   background-size: cover;
+   height: 40vh;
+}
+.down{
+    height: 60vh;
+    background-image: url('../images/img_4.jpg');
+    background-size: cover;
+}
+.card-box:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+    box-shadow: 4px 3px 5px rgb(34, 34, 26);
+
+}
